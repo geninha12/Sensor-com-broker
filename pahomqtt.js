@@ -35,7 +35,7 @@ function MQTTconnect() {
     //document.write("connecting to "+ host);
     var options = {
         timeout: 3,
-	    useSSL: true;
+	useSSL: true,
         onSuccess: onConnect,
         onFailure: onFailure,
     };
